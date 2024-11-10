@@ -1,0 +1,56 @@
+@import "./reset.css";
+
+.el-select-dropdown__item {
+	font-size: 1vw;
+	line-height: 1.5vw;
+	height: 1.5vw;
+}
+
+.el-overlay-dialog {
+	/* background: rgba(0, 0, 0, 0.2); */
+	background: rgba(32, 178, 170, 0.2);
+}
+
+/* .el-textarea__inner {
+	font-family: neverendsart, pingfang;
+} */
+
+.el-tooltip__popper.is-light {
+	border: 1px solid transparent !important;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2), 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.el-tooltip__popper.is-light[x-placement^="top"] .popper__arrow,
+.el-tooltip__popper.is-light[x-placement^="bottom"] .popper__arrow,
+.el-tooltip__popper.is-light[x-placement^="left"] .popper__arrow {
+	border-top-color: transparent !important;
+	border-bottom-color: transparent !important;
+	border-left-color: transparent !important;
+}
+
+.el-dialog {
+	border-radius: 10px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+	display: none;
+}
+
+/* @font-face {
+	font-family: "pingfang";
+	src: url("../font/pingfang.ttf");
+} */
+
+/* @font-face {
+	font-family: "neverendsart";
+	src: url("../font/neverendsart.woff2");
+} */
+
+/* @font-face {
+	font-family: "pangmenzhengdao";
+	src: url("../font/pangmenzhengdao.ttf");
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

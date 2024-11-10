@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "tai2_backend": {
+      "candid": "src/tai2_backend/tai2_backend.did",
+      "package": "tai2_backend",
+      "type": "rust"
+    },
+    "tai2_frontend": {
+      "dependencies": [
+        "tai2_backend"
+      ],
+      "source": [
+        "src/tai2_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "tai2_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
